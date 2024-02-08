@@ -1,0 +1,44 @@
+.container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+@media (min-width: 1440px) {
+.container {
+  max-width: 1400px;
+}
+}
+
+.botao-1 {
+  display: flex;
+  align-items: center;
+  padding: 0px 32px 0px 32px;
+  height: 60px;
+  background: linear-gradient(#523C86,#B03D8B);
+  border-radius: 25px;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+  text-transform: uppercase;
+  color: #EEE;
+  font-size: 1.125rem;
+  font: 600 1.125rem/1.35 var(--font2);
+  max-width: max-content;
+  border: none;
+  cursor: pointer;
+  transition: all .25s ease-in-out;
+}
+
+.botao-1:hover {
+  background: linear-gradient(135deg, #523C86, #713C88, #923D89, #B03D8B);
+  font-size: 1.2rem;
+}

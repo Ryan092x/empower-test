@@ -1,0 +1,13 @@
+@import "css/header.css";
+@import "css/sections.css";
+@import 'css/utilitarios.css';
+@import 'css/palestrantes.css';
+@import 'css/momentos.css';
+@import 'css/orcamento.css';
+@import 'css/junte-se.css';
+@import 'css/eventos.css';
+@import 'css/parceiros.css';
+@import 'css/footer.css';
+
+/* Global */
+@import "css/global.css";
