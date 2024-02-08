@@ -89,6 +89,9 @@
     font-family: var(--font2);
     line-height: 2rem;
   }
+  .junte-se-cont p {
+    text-align: center;
+  }
   .junte-se-blocos {
     gap: 20px;
   }
