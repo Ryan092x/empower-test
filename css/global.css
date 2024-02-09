@@ -57,11 +57,13 @@ a {
 
 body {
   background: #fff;
+  background: url(../img/bg-test.png) center center repeat-y;
+  background-size: contain; 
 }
 
 li:visited {
   color: initial; 
-  background-color: unset; 
+  background-color: unset;
 }
 
 .dn {

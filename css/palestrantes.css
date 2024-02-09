@@ -72,11 +72,11 @@
   padding: 10px;
 }
 
+.lista-palestrante {
+  min-height: 1200px;
+}
+
 .palestrantes-cont {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  overflow-x: auto;
   padding-top: 40px;
   padding-bottom: 120px;
 }
@@ -165,4 +165,71 @@
   .palestrantes-section::after {
     display: none;
   }
+}
+
+/* Estilos para os itens do carrossel */
+.pl-slick .slick-slide {
+  
+}
+
+.slick-list {
+  margin: 30px 20px 30px 20px !important;
+}
+
+.palestrante {
+  width: 256px !important;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.slick-track {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between !important;
+  margin-top: 40px !important;
+  margin-bottom: 40px !important;
+}
+
+.palestrantes-cont .slick-prev {
+  position: absolute;
+  top: 40%;
+  width: 48px;
+  background: transparent !important;
+  padding: 1rem;
+  left: 10px;
+  z-index: 2;
+  color: transparent;
+}
+
+.palestrantes-cont .slick-next {
+  position: absolute;
+  top: 40%;
+  width: 48px;
+  background: transparent !important;
+  padding: 1rem;
+  z-index: 2;
+  right: 10px;
+  color: transparent;
+}
+
+.palestrantes-cont .slick-prev::after {
+  content: '';
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 6px;
+  top: 4px;
+  background-image: url('../img/dec/arrow-left.png');
+  background-repeat: no-repeat;
+}
+
+.palestrantes-cont .slick-next::after {
+  content: '';
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 14px;
+  top: 4px;
+  background-image: url('../img/dec/arrow-rigth.png');
+  background-repeat: no-repeat;
 }

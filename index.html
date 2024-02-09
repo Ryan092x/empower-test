@@ -5,7 +5,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Empower</title>
-  <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
@@ -14,6 +13,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -73,7 +74,9 @@
       <label class="hamburger">
         <input type="checkbox">
         <svg viewBox="0 0 32 32">
-          <path class="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
+          <path class="line line-top-bottom"
+            d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22">
+          </path>
           <path class="line" d="M7 16 27 16"></path>
         </svg>
       </label>
@@ -115,7 +118,37 @@
         </form>
       </div>
       <div class="lista-palestrantes">
-        <div class="palestrantes-cont container">
+        <div class="palestrantes-cont pl-slick">
+
+          <div class="palestrante">
+            <div class="palestrante-block">
+              <div class="block-bkg">
+                <img src="img/models/palestrante-model-2.png" alt="palestrante">
+                <p>Paula Victoria</p>
+              </div>
+            </div>
+            <div class="palestrante-block-infos">
+              <!-- <img src="img/dec/star-logo-dec.svg" alt=""> -->
+              <p>Palestrante especializada em saúde mental, com foco em equilíbrio emocional, bem-estar e
+                produtividade.
+              </p>
+            </div>
+          </div>
+
+          <div class="palestrante">
+            <div class="palestrante-block">
+              <div class="block-bkg">
+                <img src="img/models/palestrante-model-2.png" alt="palestrante">
+                <p>Paula Victoria</p>
+              </div>
+            </div>
+            <div class="palestrante-block-infos">
+              <!-- <img src="img/dec/star-logo-dec.svg" alt=""> -->
+              <p>Palestrante especializada em saúde mental, com foco em equilíbrio emocional, bem-estar e
+                produtividade.
+              </p>
+            </div>
+          </div>
 
           <div class="palestrante">
             <div class="palestrante-block">
@@ -391,7 +424,10 @@
   </footer>
 
   <script src="./js/plugins/simple-anime.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <script type="module" src="js/menuscroll.js"></script>
+  <script src="./js/carrossel.js"></script>
 </body>
 
 </html>
