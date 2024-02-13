@@ -11,17 +11,12 @@
 .apresentacao-empower {
   position: relative;
   z-index: 1;
-  margin-top: 82px;
-  height: calc(100vh - 82px);
-  /* background-image: linear-gradient(to bottom right, #100a15 40%, #15043e); */
-  background: #170531;
-}
-
-.apresentacao-empower::after {
-  content: '';
-  width: 100%;
+  padding-top: 82px;
   height: 100vh;
-  background-image: linear-gradient(to bottom right, #100a15 40%, #15043e);
+  background-image: url(../img/bg-temp.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .apresentacao-empower::before {
@@ -43,21 +38,46 @@
   font-family: var(--font2);
   color: #fff;
   font-size: 3.375rem;
+  font-weight: bold;
   max-width: 580px;
-  line-height: 4.2rem;
+  line-height: 4rem;
 }
 
 .apresentacao-conteudo p {
   font-family: var(--font3);
   font-size: 1.125rem;
+  font-weight: 400;
   line-height: 1.55rem;
   max-width: 570px;
   color: #fff;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 34px;
+}
+
+.botao-aps {
+  font-family: var(--font6);
+  font-size: 0.875rem;
+  border: 1px solid #fff;
+  font-weight: 600;
+  width: max-content;
+  padding: 16px 36px;
+  color: #fff;
+  border-radius: 8px;
+  transition: all .25s ease-in-out;
+  text-transform: uppercase;
+  border: 1px solid #cecece;
+  color: #cecece;
+  display: flex;
+}
+
+.botao-aps:hover {
+  background: #6B3D87;
+  color: #fff;
+  border-color: #6B3D87;
 }
 
 .img-conteudo {
+   display: none;
   width: 580px;
   height: 800px;
   overflow: hidden;

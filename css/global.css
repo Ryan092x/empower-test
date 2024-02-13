@@ -59,6 +59,7 @@ body {
   background: #fff;
   background: url(../img/bg-test.png) center center repeat-y;
   background-size: contain; 
+  overflow-x: hidden;
 }
 
 li:visited {
@@ -68,4 +69,8 @@ li:visited {
 
 .dn {
   display: none;
+}
+
+::selection {
+  background-color: transparent; /* Define a cor de fundo da seleção como transparente */
 }

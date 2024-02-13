@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Empower</title>
+
+  <!-- Fontes -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
@@ -13,7 +15,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+  <!-- CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -91,16 +97,12 @@
           <p>Sua busca por palestrantes inspiradores e especializados acaba aqui. Somos uma empresa dedicada a fornecer
             talentos excepcionais que transformarão seus eventos. Não perca mais tempo procurando, concentre-se no que
             realmente importa: aprimorar sua experiência e oferecer conteúdo de qualidade.</p>
-          <a href="#palestrantes" class="botao-1 fadeInLeft" data-anime="700">Nossos palestrantes</a>
+          <a href="#palestrantes" class="botao-aps fadeInLeft" data-anime="700">Nossos palestrantes</a>
         </div>
-        <div class="img-conteudo fadeInRight" data-anime="800">
-          <img class="img-g" src="img/Ilustração 1.png" alt="" width="" height="800px">
-          <img src="img/img-test.png" alt="" class="img-p">
-        </div>
-      </div>
     </section>
 
     <section class="palestrantes-section" id="palestrantes" aria-label="Nossos Palestrantes">
+
       <div class="palestrantes-busca container">
         <h2>Encontre seu palestrante aqui!</h2>
         <form class="buscar-palestrante" method="get">
@@ -117,100 +119,100 @@
           </div>
         </form>
       </div>
-      <div class="lista-palestrantes">
-        <div class="palestrantes-cont pl-slick">
 
-          <div class="palestrante">
-            <div class="palestrante-block">
-              <div class="block-bkg">
-                <img src="img/models/palestrante-model-2.png" alt="palestrante">
-                <p>Paula Victoria</p>
+      <div class="pl-swiper-cont">
+        <div class="slide-container swiper">
+          <div class="slide-content">
+            <div class="card-wrapper swiper-wrapper">
+
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <div class="card-image">
+                    <img src="img/models/pl1.png" alt="">
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <div class="name">Jaqueline Guedes</div>
+                  <div class="description">Palestrante, Saúde mental, Lazer e Empreendimento</div>
+                </div>
               </div>
-            </div>
-            <div class="palestrante-block-infos">
-              <!-- <img src="img/dec/star-logo-dec.svg" alt=""> -->
-              <p>Palestrante especializada em saúde mental, com foco em equilíbrio emocional, bem-estar e
-                produtividade.
-              </p>
+
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <div class="card-image">
+                    <img src="img/models/pl2.jpg" alt="">
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <div class="name">Raquel Leopardo</div>
+                  <div class="description">Nutricionista e Coach de Saúde e Bem-Estar.</div>
+                </div>
+              </div>
+
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <div class="card-image">
+                    <img src="img/models/pl3.jpg" alt="">
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <div class="name">Lia Silva</div>
+                  <div class="description">Professora de História e Palestrante de Diversidade Cultural</div>
+                </div>
+              </div>
+
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <div class="card-image">
+                    <img src="img/models/pl4.jpg" alt="">
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <div class="name">Roberto Ferreira</div>
+                  <div class="description">Empreendedor Digital e Palestrante de Marketing Online.</div>
+                </div>
+              </div>
+
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <div class="card-image">
+                    <img src="img/models/pl5.jpg" alt="">
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <div class="name">Keyla Ribeiro</div>
+                  <div class="description">Advogada e Especialista em Direitos Humanos.</div>
+                </div>
+              </div>
+
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <div class="card-image">
+                    <img src="img/models/pl7.jpg" alt="">
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <div class="name">Maria Oliveira</div>
+                  <div class="description">Engenheira de Software e Palestrante de Inovação Tecnológica.</div>
+                </div>
+              </div>
+
             </div>
           </div>
 
-          <div class="palestrante">
-            <div class="palestrante-block">
-              <div class="block-bkg">
-                <img src="img/models/palestrante-model-2.png" alt="palestrante">
-                <p>Paula Victoria</p>
-              </div>
-            </div>
-            <div class="palestrante-block-infos">
-              <!-- <img src="img/dec/star-logo-dec.svg" alt=""> -->
-              <p>Palestrante especializada em saúde mental, com foco em equilíbrio emocional, bem-estar e
-                produtividade.
-              </p>
-            </div>
-          </div>
-
-          <div class="palestrante">
-            <div class="palestrante-block">
-              <div class="block-bkg">
-                <img src="img/models/palestrante-model-2.png" alt="palestrante">
-                <p>Paula Victoria</p>
-              </div>
-            </div>
-            <div class="palestrante-block-infos">
-              <!-- <img src="img/dec/star-logo-dec.svg" alt=""> -->
-              <p>Palestrante especializada em saúde mental, com foco em equilíbrio emocional, bem-estar e
-                produtividade.
-              </p>
-            </div>
-          </div>
-
-          <div class="palestrante">
-            <div class="palestrante-block">
-              <div class="block-bkg">
-                <img src="img/models/palestrante-model-3.png" alt="palestrante">
-                <p>Fabricio Medeiros</p>
-              </div>
-            </div>
-            <div class="palestrante-block-infos">
-              <!-- <img src="img/dec/star-logo-dec.svg" alt=""> -->
-              <p>Palestrante especializada em saúde mental, com foco em equilíbrio emocional, bem-estar e
-                produtividade.
-              </p>
-            </div>
-          </div>
-
-          <div class="palestrante">
-            <div class="palestrante-block">
-              <div class="block-bkg">
-                <img src="img/models/Jaque-model-test.png" alt="palestrante">
-                <p>Jaqueline Guedes</p>
-              </div>
-            </div>
-            <div class="palestrante-block-infos">
-              <!-- <img src="img/dec/star-logo-dec.svg" alt=""> -->
-              <p>Palestrante especializada em saúde mental, com foco em equilíbrio emocional, bem-estar e
-                produtividade.
-              </p>
-            </div>
-          </div>
-
-          <div class="palestrante">
-            <div class="palestrante-block">
-              <div class="block-bkg">
-                <img src="img/models/palestrante-model-4.png" alt="palestrante">
-                <p>Juliano Kimura</p>
-              </div>
-            </div>
-            <div class="palestrante-block-infos">
-              <!-- <img src="img/dec/star-logo-dec.svg" alt=""> -->
-              <p>Palestrante especializada em saúde mental, com foco em equilíbrio emocional, bem-estar e
-                produtividade.
-              </p>
-            </div>
-          </div>
-
+          <div class="swiper-button-next swiper-navBtn"></div>
+          <div class="swiper-button-prev swiper-navBtn"></div>
+          <div class="swiper-pagination"></div>
         </div>
+      </div>
+
+      </div>
       </div>
     </section>
 
@@ -226,7 +228,7 @@
           <p>Nossa jornada é contada não apenas por datas, mas por momentos. Cada evento é um capítulo, e cada capítulo
             é uma história de realizações, superações e celebrações. Embarque conosco nesta viagem visual através de
             nossos eventos passados.</p>
-          <a href="#eventos" class="botao-1">Agenda de Eventos</a>
+          <a href="#eventos" class="botao-aps">Agenda de Eventos</a>
         </div>
       </div>
 
@@ -352,6 +354,7 @@
         <li><img src="./img/parceiros/surfbot.svg" alt="Surfbot" width="200" height="49"></li>
       </ul>
     </section>
+
   </main>
 
   <footer class="footer-bg">
@@ -428,6 +431,9 @@
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <script type="module" src="js/menuscroll.js"></script>
   <script src="./js/carrossel.js"></script>
+  <!-- Swiper JS -->
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
