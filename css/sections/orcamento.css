@@ -1,0 +1,93 @@
+.orcamento {
+  width: 100%;
+}
+.orcamento-cont {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 74px;
+  padding-bottom: 74px;
+}
+.orcamento-title {
+  display: flex;
+  flex-direction: column;
+  color: #FBF9FF;
+  font-family: var(--font1);
+  font-weight: lighter;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+}
+.orcamento-title .separador {
+  padding: 15px 0;
+}
+.orcamento-title h2 {
+  font-size: 3rem;
+  text-transform: initial;
+  letter-spacing: -0.92px;
+  padding-top: 40px;
+  max-width: 568px;
+}
+.orcamento-form {
+  max-width: 534px;
+}
+.orcamento-form input {
+  display: flex;
+  align-items: center;
+  font-family: var(--font1);
+  font-weight: 400;
+  font-size: 1rem;
+  width: 100%;
+  height: 40px;
+  border-radius: 7px;
+  color: #777380;
+  background-color: #FBF9FF;
+  outline: none;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: 4px;
+}
+.orcamento-form textarea {
+  resize: none;
+  font-family: var(--font1);
+  font-weight: 400;
+  font-size: 1rem;
+  width: 100%;
+  height: 140px;
+  border-radius: 7px;
+  color: #777380;
+  background-color: #FBF9FF;
+  outline: none;
+  padding: 12px 16px;
+}
+.orcamento-form button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font4);
+  font-weight: bold;
+  width: 100%;
+  height: 40px;
+  background-color: #66558F;
+  border-radius: 5px;
+  font-size: 0.875rem;
+  color: #FBF9FF;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+@media (max-width: 980px) {
+  .orcamento-cont {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+@media (max-width: 420px) {
+  .orcamento-title h2 {
+    font-size: 2.5rem;
+  }
+}

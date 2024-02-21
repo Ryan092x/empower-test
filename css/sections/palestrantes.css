@@ -1,0 +1,81 @@
+.palestrantes-section {
+  position: relative;
+  padding-bottom: 74px;
+  padding-top: 74px;
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #25122C;
+}
+
+.palestrantes-busca {
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: grid;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.palestrantes-busca h2 {
+  font-size: 3rem;
+  font-family: var(--font1);
+  color: #FBF9FF;
+  font-weight: bold;
+  margin-bottom: 2.5rem;
+  line-height: 2.8rem;
+  margin-right: auto;
+  margin-left: auto;
+  text-transform: uppercase;
+  text-align: center;
+}
+.palestrantes-busca h2 span {
+  font-weight: bolder;
+  color: #66558f;
+}
+
+.buscar-palestrante {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  width: 100%;
+}
+
+.input-buscar-palestrante {
+  width: 100%;
+  max-width: 620px;
+}
+
+.input-buscar-palestrante input {
+  display: flex;
+  align-items: center;
+  color: #7b6e9b;
+  padding-left: 26px;
+  height: 56px;
+  width: 100%;
+  border: 1px solid #7b6e9b;
+  border-radius: 750px;
+  outline: none;
+  background-color: #FBF9FF;
+}
+
+.input-buscar-palestrante input::placeholder {
+  color: #7b6e9b;
+  font-family: var(--font4);
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.button-buscar-palestrante {
+  padding: 10px;
+}
+@media (max-width: 390px) {
+  .palestrantes-busca h2 {
+    font-size: 2.5rem;
+  }
+}
+
+
+

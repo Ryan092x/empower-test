@@ -1,0 +1,140 @@
+.inovacao {
+  width: 100%;
+  background-color: #15021C;
+}
+.inovacao-cont {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 156px;
+  text-align: center;
+  justify-content: center;
+  color: #FBF9FF;
+  font-family: var(--font2);
+  font-weight: 400;
+  font-size: 0.75rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  gap: 18px;
+}
+.inovacao-cont span {
+  font-family: var(--font1);
+  font-weight: bolder;
+  color: #66558F;
+  font-size: 3rem;
+  letter-spacing: -0.96px;
+  padding-bottom: 8px;
+}
+@media (max-width: 700px) {
+  .inovacao-cont {
+    flex-direction: column;
+  }
+}
+
+.numeros-empower {
+  width: 100%;
+  background-color: #15021C;
+}
+.numeros-empower-cont {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 74px;
+  padding-bottom: 74px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.numeros-empower-title {
+  display: flex;
+  flex-direction: column;
+  color: #FBF9FF;
+  font-family: var(--font1);
+  font-weight: lighter;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+}
+.numeros-empower-title .separador {
+  padding: 15px 0;
+}
+
+.statics {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+}
+.statics-f1 {
+  display: flex;
+  justify-content: space-between;
+}
+.st1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #FBF9FF;
+  font-family: var(--font1);
+  font-weight: lighter;
+  font-size: 0.75rem;
+  letter-spacing: 0.7px;
+}
+.st1 span {
+  font-size: 2.8125rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.st1:last-child {
+  padding-right: 80px;
+}
+.statics-f2 {
+  display: flex;
+  justify-content: space-between;
+}
+.st2 {
+  display: flex;
+  color: #FBF9FF;
+  font-family: var(--font1);
+  font-weight: 400;
+  font-size: 0.75rem;
+  letter-spacing: 0.7px;
+}
+.st2:last-child {
+  padding-right: 80px;
+}
+.st2:nth-child(2) {
+  padding-right: 60px;
+}
+.divisor-statics {
+  width: 100%;
+  height: max-content;
+  padding: 46px 0;
+}
+.divisor-statics span {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #FBF9FF;
+}
+
+@media (max-width: 880px) {
+  .numeros-empower-cont {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+@media (max-width: 720px) {
+  .statics-f1 {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .statics-f2 {
+    flex-direction: column;
+    gap: 40px;
+  }
+}

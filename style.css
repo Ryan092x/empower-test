@@ -1,15 +1,18 @@
-@import "css/header.css";
-@import "css/sections.css";
-@import 'css/utilitarios.css';
-@import 'css/palestrantes.css';
-@import 'css/momentos.css';
-@import 'css/orcamento.css';
-@import 'css/junte-se.css';
-@import 'css/eventos.css';
-@import 'css/parceiros.css';
-@import 'css/footer.css';
-@import 'css/pl-swiper.css';
-@import 'css/contato.css';
+@import './css/global/header.css';
+@import './css/global/footer.css';
+@import './css/global/utilitarios.css';
+
+/* Sections */
+@import './css/sections/pl-swiper.css';
+@import './css/sections/apresentacao.css';
+@import './css/sections/palestrantes.css';
+@import './css/sections/impacto.css';
+@import './css/sections/planejamento.css';
+@import './css/sections/empresas.css';
+@import './css/sections/orcamento.css';
+@import './css/sections/eventos.css';
+@import './css/sections/perguntas.css';
+
 
 /* Global */
-@import "css/global.css";
+@import './css/global/global.css';

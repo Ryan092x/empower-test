@@ -1,0 +1,72 @@
+.eventos {
+  width: 100%;
+}
+.eventos-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 74px;
+  padding-bottom: 74px;
+}
+.eventos-title {
+  display: flex;
+  flex-direction: column;
+  color: #FBF9FF;
+  font-family: var(--font1);
+  font-weight: lighter;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+}
+.eventos-title .separador {
+  padding: 15px 0;
+}
+.eventos-title h2 {
+  font-size: 3rem;
+  text-transform: initial;
+  letter-spacing: -0.92px;
+  padding-top: 40px;
+}
+.eventos-cards {
+  max-width: 1200px;
+}
+.banner-evento {
+  width: 100%;
+  max-width: 1200px;
+  max-height: 600px;
+}
+.eventos-cards {
+  display: grid;
+  width: 100%;
+  max-width: 1200px;
+}
+.eventos-cards-cont {
+  width: 100%;
+}
+.imagem-banner {
+  width: 100%;
+  height: 100%;
+}
+.imagem-banner img {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+@media (max-width: 600px) {
+  .eventos-title h2 {
+    font-size: 2rem;
+  }
+  .eventos-cont {
+    gap: 40px;
+  }
+}
+@media (max-width: 420px) {
+  .eventos-title h2 {
+    font-size: 1.8rem;
+  }
+}

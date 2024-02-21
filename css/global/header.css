@@ -1,0 +1,118 @@
+header {
+  width: 100%;
+  height: 82px;
+  background-color: #17041e;
+}
+
+.header-container {
+  height: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-header {
+  height: max-content;
+  display: flex;
+  align-items: center;
+  padding-bottom: 0.95px;
+}
+.header-sections {
+  display: flex;
+  align-items: center;
+}
+.header-sections li a {
+  font-family: var(--font1);
+  color: #fbf9ff;
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 0.9375rem;
+  padding-right: 18px;
+  padding-left: 18px;
+  border-right: 2px solid #66558f;
+  transition: color 0.3s ease;
+}
+.header-sections li a:hover {
+  color: #EBE3FF;
+}
+.header-sections li:last-child a {
+  border: none;
+}
+
+.header-redes {
+  display: flex;
+  gap: 6px;
+}
+.header-redes a {
+  width: 42px;
+  height: 38px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: #fbf9ff;
+  border: 2px solid #fbf9ff;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+.header-redes a:hover {
+  transform: scale(1.1);
+  color: #EBE3FF;
+  border-color: #EBE3FF;
+}
+@media (max-width: 980px) {
+  .header-sections {
+    display: none;
+  }
+  .header-redes {
+    display: none;
+  }
+}
+
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.hamburger input {
+  display: none;
+}
+
+.hamburger svg {
+  height: 3em;
+  transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.line {
+  fill: none;
+  stroke: #fbf9ff;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 3;
+  transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+              stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.line-top-bottom {
+  stroke-dasharray: 12 63;
+}
+
+.hamburger input:checked + svg {
+  transform: rotate(-45deg);
+}
+
+.hamburger input:checked + svg .line-top-bottom {
+  stroke-dasharray: 20 300;
+  stroke-dashoffset: -32.42;
+}
+
+
+@media (max-width:980px) {
+  .hamburger {
+    display: initial;
+  }
+}
