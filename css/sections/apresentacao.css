@@ -1,7 +1,9 @@
 .apresentacao {
   width: 100%;
-  height: calc(100vh - 82px);
+  min-height: calc(100vh - 82px);
+  max-height: max-content;
   background-image: url(../../img/bg1.png);
+  background-repeat: no-repeat;
   background-position: right center;
 }
 .form-apresentacao {
@@ -127,6 +129,7 @@
   color: #FBF9FF;
   text-transform: uppercase;
   letter-spacing: 2px;
+  padding-bottom: 80px;
 }
 .button-apresentacao svg {
   width: 14px;
