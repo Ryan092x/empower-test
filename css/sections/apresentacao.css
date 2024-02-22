@@ -1,6 +1,5 @@
 .apresentacao {
   width: 100%;
-  min-height: calc(100vh - 82px);
   max-height: max-content;
   background-image: url(../../img/bg1.png);
   background-repeat: no-repeat;
@@ -27,7 +26,7 @@
   text-transform: uppercase;
   max-width: 594px;
   letter-spacing: -0.96px;
-  padding-top: 160px;
+  padding-top: 80px;
   padding-bottom: 52px;
 }
 .form-cont h1 span {
