@@ -70,6 +70,7 @@ li:visited {
   background-color: #a894db; 
 }
 
-.card.show-card {
-  display: block !important;
-  }
+.palestrantes-busca, .pl-swiper-cont, .impacto-desc, .impacto-img {
+  visibility: hidden;
+}
+

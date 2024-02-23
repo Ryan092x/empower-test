@@ -148,3 +148,14 @@
     font-size: 2.5rem;
   }
 }
+
+@media (min-width: 1200px) {
+  .apresentacao {
+    width: 100%;
+    height: calc(100vh - 82px);
+    max-height: 100%;
+  }
+  .form-cont h1 {
+    padding-top: 160px;
+  }
+}

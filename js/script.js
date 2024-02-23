@@ -85,6 +85,7 @@ var swiper3 = new Swiper(".eventos-cards", {
 function search() {
   let input = document.getElementById('searchbar').value.trim().toLowerCase();
   let cards = document.querySelectorAll('.card');
+  let noResults = document.getElementById('no-results'); // Div para exibir quando não houver resultados
 
   let matchesCount = 0; // Contador para o número de cartões correspondentes
   cards.forEach(card => {
@@ -99,9 +100,12 @@ function search() {
     }
   });
 
-  // Ajusta o número de slides exibidos com base no número de correspondências
-  let slidesPerView = Math.min(matchesCount, 3); // Mostra no máximo 3 slides
-  swiper1.params.slidesPerView = slidesPerView;
+  if (matchesCount === 0) {
+    noResults.style.display = 'block'; // Exibe a mensagem de nenhum resultado encontrado
+  } else {
+    noResults.style.display = 'none'; // Esconde a mensagem se houver resultados
+  }
+
   swiper1.update(); // Atualiza o Swiper
 }
 

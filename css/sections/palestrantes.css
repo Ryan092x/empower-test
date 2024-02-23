@@ -5,7 +5,7 @@
   max-width: 1440px;
   margin-right: auto;
   margin-left: auto;
-  background-color: #25122C;
+  background-color: #25122c;
 }
 
 .palestrantes-busca {
@@ -21,7 +21,7 @@
 .palestrantes-busca h2 {
   font-size: 3rem;
   font-family: var(--font1);
-  color: #FBF9FF;
+  color: #fbf9ff;
   font-weight: bold;
   margin-bottom: 2.5rem;
   line-height: 2.8rem;
@@ -58,7 +58,7 @@
   border: 1px solid #7b6e9b;
   border-radius: 750px;
   outline: none;
-  background-color: #FBF9FF;
+  background-color: #fbf9ff;
 }
 
 .input-buscar-palestrante input::placeholder {
@@ -77,5 +77,15 @@
   }
 }
 
-
-
+#no-results {
+  display: none;
+  max-width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: var(--font1);
+  color: #fbf9ff;
+  padding-top: 40px;
+  font-size: 1.25rem;
+}
