@@ -30,7 +30,7 @@ var swiper1 = new Swiper(".slide-content", {
 
 var swiper4 = new Swiper(".coluna", {
   slidesPerView: 3,
-  spaceBetween: 0,
+  spaceBetween: 40,
   loop: true,
   centerSlide: "true",
   fade: true,
@@ -133,3 +133,25 @@ function togglePergunta(pergunta) {
 
   perguntaAtual.classList.toggle('active');
 }
+
+// Menu Responsive
+
+document.addEventListener("DOMContentLoaded", function() {
+  const menuHamburger = document.querySelector(".hamburger input");
+  const menuResponsive = document.getElementById("menu-rs");
+  const links = document.querySelectorAll("#menu-rs a");
+
+  menuHamburger.addEventListener("click", function() {
+    if (menuResponsive.style.display === "none") {
+      menuResponsive.style.display = "flex";
+    } else {
+      menuResponsive.style.display = "none";
+    }
+  });
+
+  links.forEach(link => {
+    link.addEventListener("click", function() {
+      menuResponsive.style.display = "none";
+    });
+  });
+});
