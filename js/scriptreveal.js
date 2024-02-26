@@ -21,6 +21,5 @@ sr.reveal('.impacto-desc', {
 sr.reveal('.impacto-img', {
    duration: 2000,
    distance: '90px',
-   delay: 1000,
-   origin: 'right'
+   delay: 800,
    });
