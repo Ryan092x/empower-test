@@ -129,7 +129,7 @@ header {
   color: #fbf9ff;
   right: 0;
   top: 82px;
-  background: #fbf9ff;
+  background: #1a0422;
   z-index: 42;
   box-sizing: border-box;
 }
@@ -148,7 +148,7 @@ header {
   display: block;
   width: 100%;
   font-family: var(--font1);
-  color: #17041e;
+  color: #fbf9ff;
   font-weight: bold;
   line-height: 20px;
   font-size: 0.9375rem;
@@ -159,7 +159,7 @@ header {
   cursor: pointer;
 }
 .header-sections-responsive li a:hover {
-  color: #4f0569;
+  color: #EBE3FF;
 }
 
 .header-redes-responsive {
@@ -176,13 +176,13 @@ header {
   justify-content: center;
   display: flex;
   align-items: center;
-  color: #17041e;
-  border: 2px solid #17041e;
+  color: #fbf9ff;
+  border: 2px solid #fbf9ff;
   border-radius: 12px;
   transition: all 0.3s ease;
 }
 .header-redes-responsive a:hover {
   transform: scale(1.1);
-  color: #4f0569;
-  border-color: #4f0569;
+  color: #EBE3FF;
+  border-color: #EBE3FF;
 }

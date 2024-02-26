@@ -1,6 +1,7 @@
 @import './css/global/header.css';
 @import './css/global/footer.css';
 @import './css/global/utilitarios.css';
+@import './css/global/sucesso.css';
 
 /* Sections */
 @import './css/sections/pl-swiper.css';

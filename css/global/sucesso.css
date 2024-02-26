@@ -1,0 +1,53 @@
+#sucesso {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.sucesso-msg {
+  display: flex;
+  height: max-content;
+  flex-direction: column;
+  text-align: center;
+  max-width: max-content;
+  margin: auto;
+}
+.sucesso-msg img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sucesso-msg h1{
+  font-family: var(--font1);
+  font-size: 3rem;
+  color: #fbf9ff;
+  letter-spacing: -1px;
+  padding-top: 20px;
+}
+
+.sucesso-msg p {
+  font-family: var(--font1);
+  color: #fbf9ff;
+  max-width: 800px;
+  padding-top: 8px;
+}
+
+.sucesso-msg a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font4);
+  font-weight: bold;
+  width: max-content;
+  padding: 16px;
+  background-color: #66558F;
+  border-radius: 5px;
+  font-size: 0.875rem;
+  color: #FBF9FF;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}

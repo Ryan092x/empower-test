@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Empower </title>
+  <link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon">
 
   <!-- Fontes -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -125,18 +126,19 @@
 
   <main>
     <section class="apresentacao">
-      <form class="form-apresentacao" action="submit">
+      <form id="form-1" class="form-apresentacao" action="https://formsubmit.co/ryanvictor.am@gmail.com" method="POST">
+        <input type="hidden" name="_next" value="sucesso.html">
         <div class="form-cont">
           <h1>acesse a <span>Maior base</span> de
             palestrantes do norte.</h1>
           <h2>Preencha o formulário e acesse nossa base com <span>mais de 100 palestrantes cadastrados!</span></h2>
           <div class="separador"><span></span></div>
           <div class="input-duplo">
-            <input type="text" placeholder="Seu nome" required>
-            <input type="tel" placeholder="Telefone" required>
+            <input type="text" name="name" placeholder="Seu nome" required>
+            <input type="tel" name="Telefone" placeholder="Telefone" required>
           </div>
-          <input type="email" required placeholder="Seu e-mail">
-          <input type="text" placeholder="Nome do evento" required>
+          <input type="email" name="email" required placeholder="Seu e-mail">
+          <input type="text" name="nomeEvento" placeholder="Nome do evento" required>
           <select name="escolha" id="escolha">
             <option value="opcao1">Motivação</option>
             <option value="opcao2">Liderança</option>
@@ -148,14 +150,18 @@
             <option value="opcao8">Saúde</option>
             <option value="opcao9">Outros</option>
           </select>
-          <input type="text" placeholder="Digite o nome do palestrante ou tema de interesse">
-          <button type="submit" class="button-apresentacao"><svg aria-hidden="true" class="e-font-icon-svg e-fas-search"
+          <input type="text" name="palestrante" placeholder="Digite o nome do palestrante ou tema de interesse">
+          <button id="botao-enviar" type="submit" class="button-apresentacao"><svg aria-hidden="true" class="e-font-icon-svg e-fas-search"
               viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z">
               </path>
             </svg>Saiba mais</button>
         </div>
+        <input type="hidden" name="_autoresponse" value="Olá, Recebemos sua mensagem, Obrigado pelo contato e logo responderemos!">
+        <input type="hidden" name="_subject" value="Novo Contato!">
+        <input type="text" name="_honey" style="display:none;">
+        <input type="hidden" name="_captcha" value="false">
       </form>
     </section>
 
